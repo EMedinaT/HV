@@ -1,0 +1,238 @@
+body {
+  background-color: #f5f7fa;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;  
+}
+
+li {
+  line-height: 24px;
+}
+
+.lista-Proyecto {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 17px;
+}
+/*-----------------*/
+/*Contenido Principal*/
+/*-----------------*/
+.Informacion-General {
+  padding: 100px 230px;
+}
+
+.titulo-seccion-principal {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-top: 45px;
+}
+
+.Lista-proyectos {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  text-decoration-line: underline;
+}
+
+.Enlaces-Puntos {
+  color: #595959;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 3px;
+  line-height: 24px;
+}
+
+.Enlaces {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  padding-left: 17px;
+}
+
+.Fechas {
+  color: #a8a8a8;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+/*-----------------*/
+/*Descripcion*/
+/*-----------------*/
+.Nombre {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  margin-top: 20px;
+  margin-bottom: 24px;
+  width: 400px;
+}
+
+.texto-descripcion {
+  width: 400px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.Contenedor-Principal {
+  width: 1200px;
+  margin: 40px auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.Descripcion {
+  margin-bottom: 20px;
+}
+
+.Descripcion-Profesion {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.titulo-seccion-principal {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-top: 45px;
+}
+
+.Naranja {
+  color: #fb6d3a;
+}
+
+.Proyecto {
+  margin: 51px auto;
+}
+
+/*Informacion Lateral*/
+
+.Informacion-Lateral {
+  background-color: #1e2939;
+  padding: 40px 0;
+}
+
+.Titulo-Lateral {
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-top: 50px;
+}
+.Contactos {
+  margin-left: 40px;
+}
+
+/*Seccion de contactos*/
+
+.Tipo-contacto {
+  color: #fb6d3a;
+  margin-right: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+.Contacto-Info {
+  color: rgb(177, 177, 177);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/*habilidades tecnicas*/
+
+.Lista-Lateral {
+  padding-left: 17px;
+  color: #fb6d3a;
+}
+
+.Elemento-Lista-Lateral {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/*Habilidades blandas*/
+
+.Blandas {
+  padding-left: 17px;
+  color: #fb6d3a;
+}
+
+.Elemento-Blandas {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+#btn-mas{
+    display: none;
+}
+.container{
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+}
+.redes a, .btn-mas label{
+    display: block;
+    text-decoration: none;
+    background: #fb6d3a;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition: all 500ms ease;
+}
+.redes a:hover{
+    background: #fff;
+    color: #fb6d3a;
+}
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-mas:checked~ .redes a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+.btn-mas label{
+    cursor: pointer;
+    background: #fb6d3a;
+    font-size: 23px;
+}
+#btn-mas:checked ~ .btn-mas label{
+    transform: rotate(135deg);
+    font-size: 25px;
+}
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%
+  }
+}
